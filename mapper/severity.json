@@ -1,0 +1,2197 @@
+[
+  {
+    "Policy": "AWS IAM policies that allow full administrative privileges are created",
+    "Checkov ID": "CKV_AWS_1",
+    "Severity": "LOW"
+  },
+  {
+    "Policy": "AWS IAM password policy does not have a minimum of 14 characters",
+    "Checkov ID": "CKV_AWS_10",
+    "Severity": "INFO"
+  },
+  {
+    "Policy": "AWS EKS node group have implicit SSH access from 0.0.0.0/0",
+    "Checkov ID": "CKV_AWS_100",
+    "Severity": "HIGH"
+  },
+  {
+    "Policy": "Neptune logging is not enabled",
+    "Checkov ID": "CKV_AWS_101",
+    "Severity": "HIGH"
+  },
+  {
+    "Policy": "Neptune cluster instance is publicly available",
+    "Checkov ID": "CKV_AWS_102",
+    "Severity": "HIGH"
+  },
+  {
+    "Policy": "AWS Load Balancer is not using TLS 1.2",
+    "Checkov ID": "CKV_AWS_103",
+    "Severity": "HIGH"
+  },
+  {
+    "Policy": "DocDB does not have audit logs enabled",
+    "Checkov ID": "CKV_AWS_104",
+    "Severity": "LOW"
+  },
+  {
+    "Policy": "AWS Redshift does not have require_ssl configured",
+    "Checkov ID": "CKV_AWS_105",
+    "Severity": "LOW"
+  },
+  {
+    "Policy": "AWS EBS volume region with encryption is disabled",
+    "Checkov ID": "CKV_AWS_106",
+    "Severity": "LOW"
+  },
+  {
+    "Policy": "Credentials exposure actions return credentials in an API response",
+    "Checkov ID": "CKV_AWS_107",
+    "Severity": "LOW"
+  },
+  {
+    "Policy": "Data exfiltration allowed without resource constraints",
+    "Checkov ID": "CKV_AWS_108",
+    "Severity": "LOW"
+  },
+  {
+    "Policy": "Resource exposure allows modification of policies and exposes resources",
+    "Checkov ID": "CKV_AWS_109",
+    "Severity": "LOW"
+  },
+  {
+    "Policy": "AWS IAM password policy does not have a lowercase character",
+    "Checkov ID": "CKV_AWS_11",
+    "Severity": "INFO"
+  },
+  {
+    "Policy": "IAM policies allow privilege escalation",
+    "Checkov ID": "CKV_AWS_110",
+    "Severity": "MEDIUM"
+  },
+  {
+    "Policy": "Write access allowed without constraint",
+    "Checkov ID": "CKV_AWS_111",
+    "Severity": "LOW"
+  },
+  {
+    "Policy": "Session Manager data is not encrypted in transit",
+    "Checkov ID": "CKV_AWS_112",
+    "Severity": "MEDIUM"
+  },
+  {
+    "Policy": "Deletion protection disabled for load balancer",
+    "Checkov ID": "CKV_AWS_113",
+    "Severity": "MEDIUM"
+  },
+  {
+    "Policy": "Deletion protection disabled for load balancer",
+    "Checkov ID": "CKV_AWS_113",
+    "Severity": "MEDIUM"
+  },
+  {
+    "Policy": "AWS EMR cluster is not configured with Kerberos Authentication",
+    "Checkov ID": "CKV_AWS_114",
+    "Severity": "LOW"
+  },
+  {
+    "Policy": "AWS Lambda function is not configured for function-level concurrent execution Limit",
+    "Checkov ID": "CKV_AWS_115",
+    "Severity": "LOW"
+  },
+  {
+    "Policy": "AWS Lambda function is not configured for a DLQ",
+    "Checkov ID": "CKV_AWS_116",
+    "Severity": "LOW"
+  },
+  {
+    "Policy": "AWS Lambda Function is not assigned to access within VPC",
+    "Checkov ID": "CKV_AWS_117",
+    "Severity": "LOW"
+  },
+  {
+    "Policy": "AWS Amazon RDS instances Enhanced Monitoring is disabled",
+    "Checkov ID": "CKV_AWS_118",
+    "Severity": "LOW"
+  },
+  {
+    "Policy": "Unencrypted DynamoDB Tables",
+    "Checkov ID": "CKV_AWS_119",
+    "Severity": "LOW"
+  },
+  {
+    "Policy": "AWS DynamoDB encrypted using AWS owned CMK instead of AWS managed CMK",
+    "Checkov ID": "CKV_AWS_119",
+    "Severity": "INFO"
+  },
+  {
+    "Policy": "AWS IAM password policy does not have a number",
+    "Checkov ID": "CKV_AWS_12",
+    "Severity": "LOW"
+  },
+  {
+    "Policy": "AWS API Gateway caching is disabled",
+    "Checkov ID": "CKV_AWS_120",
+    "Severity": "LOW"
+  },
+  {
+    "Policy": "AWS API Gateway caching is disabled",
+    "Checkov ID": "CKV_AWS_120",
+    "Severity": "LOW"
+  },
+  {
+    "Policy": "AWS config is not enabled in all regions",
+    "Checkov ID": "CKV_AWS_121",
+    "Severity": "MEDIUM"
+  },
+  {
+    "Policy": "AWS SageMaker notebook instance configured with direct internet access feature",
+    "Checkov ID": "CKV_AWS_122",
+    "Severity": "LOW"
+  },
+  {
+    "Policy": "VPC endpoint service is not configured for manual acceptance",
+    "Checkov ID": "CKV_AWS_123",
+    "Severity": "LOW"
+  },
+  {
+    "Policy": "AWS CloudFormation stack configured without SNS topic",
+    "Checkov ID": "CKV_AWS_124",
+    "Severity": "LOW"
+  },
+  {
+    "Policy": "AWS EC2 instance detailed monitoring disabled",
+    "Checkov ID": "CKV_AWS_126",
+    "Severity": "MEDIUM"
+  },
+  {
+    "Policy": "Elastic load balancers do not use SSL Certificates provided by AWS Certificate Manager",
+    "Checkov ID": "CKV_AWS_127",
+    "Severity": "HIGH"
+  },
+  {
+    "Policy": "IAM authentication for Amazon RDS clusters is disabled",
+    "Checkov ID": "CKV_AWS_128",
+    "Severity": "LOW"
+  },
+  {
+    "Policy": "Respective logs of Amazon RDS are disabled",
+    "Checkov ID": "CKV_AWS_129",
+    "Severity": "LOW"
+  },
+  {
+    "Policy": "AWS IAM password policy does allow password reuse",
+    "Checkov ID": "CKV_AWS_13",
+    "Severity": "HIGH"
+  },
+  {
+    "Policy": "AWS VPC subnets should not allow automatic public IP assignment",
+    "Checkov ID": "CKV_AWS_130",
+    "Severity": "LOW"
+  },
+  {
+    "Policy": "ALB does not drop HTTP headers",
+    "Checkov ID": "CKV_AWS_131",
+    "Severity": "MEDIUM"
+  },
+  {
+    "Policy": "AWS RDS instance without Automatic Backup setting",
+    "Checkov ID": "CKV_AWS_133",
+    "Severity": "LOW"
+  },
+  {
+    "Policy": "AWS ElastiCache Redis cluster is not configured with automatic backup",
+    "Checkov ID": "CKV_AWS_134",
+    "Severity": "INFO"
+  },
+  {
+    "Policy": "EC2 EBS is not optimized",
+    "Checkov ID": "CKV_AWS_135",
+    "Severity": "LOW"
+  },
+  {
+    "Policy": "Unencrypted ECR repositories",
+    "Checkov ID": "CKV_AWS_136",
+    "Severity": "LOW"
+  },
+  {
+    "Policy": "AWS Elasticsearch is not configured inside a VPC",
+    "Checkov ID": "CKV_AWS_137",
+    "Severity": "LOW"
+  },
+  {
+    "Policy": "AWS Elastic Load Balancer (Classic) with cross-zone load balancing disabled",
+    "Checkov ID": "CKV_AWS_138",
+    "Severity": "LOW"
+  },
+  {
+    "Policy": "AWS RDS cluster delete protection is disabled",
+    "Checkov ID": "CKV_AWS_139",
+    "Severity": "INFO"
+  },
+  {
+    "Policy": "AWS IAM password policy does not have a symbol",
+    "Checkov ID": "CKV_AWS_14",
+    "Severity": "INFO"
+  },
+  {
+    "Policy": "Unencrypted RDS global clusters",
+    "Checkov ID": "CKV_AWS_140",
+    "Severity": "LOW"
+  },
+  {
+    "Policy": "Redshift clusters version upgrade is not default",
+    "Checkov ID": "CKV_AWS_141",
+    "Severity": "LOW"
+  },
+  {
+    "Policy": "AWS Redshift Cluster not encrypted using Customer Managed Key",
+    "Checkov ID": "CKV_AWS_142",
+    "Severity": "INFO"
+  },
+  {
+    "Policy": "S3 bucket lock configuration disabled",
+    "Checkov ID": "CKV_AWS_143",
+    "Severity": "LOW"
+  },
+  {
+    "Policy": "S3 bucket cross-region replication disabled",
+    "Checkov ID": "CKV_AWS_144",
+    "Severity": "LOW"
+  },
+  {
+    "Policy": "S3 buckets are not encrypted with KMS",
+    "Checkov ID": "CKV_AWS_145",
+    "Severity": "LOW"
+  },
+  {
+    "Policy": "AWS RDS DB snapshot is not encrypted",
+    "Checkov ID": "CKV_AWS_146",
+    "Severity": "LOW"
+  },
+  {
+    "Policy": "CodeBuild projects are not encrypted",
+    "Checkov ID": "CKV_AWS_147",
+    "Severity": "MEDIUM"
+  },
+  {
+    "Policy": "Default VPC is planned to be provisioned",
+    "Checkov ID": "CKV_AWS_148",
+    "Severity": "LOW"
+  },
+  {
+    "Policy": "AWS Secrets Manager secret not encrypted by Customer Managed Key (CMK)",
+    "Checkov ID": "CKV_AWS_149",
+    "Severity": "LOW"
+  },
+  {
+    "Policy": "AWS IAM password policy does not have an uppercase character",
+    "Checkov ID": "CKV_AWS_15",
+    "Severity": "INFO"
+  },
+  {
+    "Policy": "AWS Elastic Load Balancer v2 with deletion protection feature disabled",
+    "Checkov ID": "CKV_AWS_150",
+    "Severity": "LOW"
+  },
+  {
+    "Policy": "AWS Elastic Load Balancer v2 (ELBv2) with cross-zone load balancing disabled",
+    "Checkov ID": "CKV_AWS_152",
+    "Severity": "INFO"
+  },
+  {
+    "Policy": "Autoscaling groups did not supply tags to launch configurations",
+    "Checkov ID": "CKV_AWS_153",
+    "Severity": "LOW"
+  },
+  {
+    "Policy": "Redshift is deployed outside of a VPC",
+    "Checkov ID": "CKV_AWS_154",
+    "Severity": "LOW"
+  },
+  {
+    "Policy": "Workspace user volumes are not encrypted",
+    "Checkov ID": "CKV_AWS_155",
+    "Severity": "MEDIUM"
+  },
+  {
+    "Policy": "Workspace root volumes are not encrypted",
+    "Checkov ID": "CKV_AWS_156",
+    "Severity": "MEDIUM"
+  },
+  {
+    "Policy": "RDS instances do not have Multi-AZ enabled",
+    "Checkov ID": "CKV_AWS_157",
+    "Severity": "LOW"
+  },
+  {
+    "Policy": "AWS CloudWatch Log groups encrypted using default encryption key instead of KMS CMK",
+    "Checkov ID": "CKV_AWS_158",
+    "Severity": "LOW"
+  },
+  {
+    "Policy": "Athena Workgroup is not encrypted",
+    "Checkov ID": "CKV_AWS_159",
+    "Severity": "MEDIUM"
+  },
+  {
+    "Policy": "AWS RDS DB cluster encryption is disabled",
+    "Checkov ID": "CKV_AWS_16",
+    "Severity": "LOW"
+  },
+  {
+    "Policy": "Timestream database is not encrypted with KMS CMK",
+    "Checkov ID": "CKV_AWS_160",
+    "Severity": "MEDIUM"
+  },
+  {
+    "Policy": "RDS database does not have IAM authentication enabled",
+    "Checkov ID": "CKV_AWS_161",
+    "Severity": "MEDIUM"
+  },
+  {
+    "Policy": "AWS RDS cluster not configured with IAM authentication",
+    "Checkov ID": "CKV_AWS_162",
+    "Severity": "LOW"
+  },
+  {
+    "Policy": "ECR image scan on push is not enabled",
+    "Checkov ID": "CKV_AWS_163",
+    "Severity": "HIGH"
+  },
+  {
+    "Policy": "AWS Transfer Server is publicly exposed",
+    "Checkov ID": "CKV_AWS_164",
+    "Severity": "MEDIUM"
+  },
+  {
+    "Policy": "Dynamodb point in time recovery is not enabled for global tables",
+    "Checkov ID": "CKV_AWS_165",
+    "Severity": "MEDIUM"
+  },
+  {
+    "Policy": "Backup Vault is not encrypted at rest using KMS CMK",
+    "Checkov ID": "CKV_AWS_166",
+    "Severity": "MEDIUM"
+  },
+  {
+    "Policy": "Glacier Vault access policy is public and not restricted to specific services or principals",
+    "Checkov ID": "CKV_AWS_167",
+    "Severity": "MEDIUM"
+  },
+  {
+    "Policy": "SQS queue policy is public and access is not restricted to specific services or principals",
+    "Checkov ID": "CKV_AWS_168",
+    "Severity": "HIGH"
+  },
+  {
+    "Policy": "SNS topic policy is public and access is not restricted to specific services or principals",
+    "Checkov ID": "CKV_AWS_169",
+    "Severity": "MEDIUM"
+  },
+  {
+    "Policy": "AWS RDS database instance is publicly accessible",
+    "Checkov ID": "CKV_AWS_17",
+    "Severity": "MEDIUM"
+  },
+  {
+    "Policy": "QLDB ledger permissions mode is not set to STANDARD",
+    "Checkov ID": "CKV_AWS_170",
+    "Severity": "MEDIUM"
+  },
+  {
+    "Policy": "AWS EMR cluster is not configured with SSE KMS for data at rest encryption (Amazon S3 with EMRFS)",
+    "Checkov ID": "CKV_AWS_171",
+    "Severity": "LOW"
+  },
+  {
+    "Policy": "AWS QLDB ledger has deletion protection is disabled",
+    "Checkov ID": "CKV_AWS_172",
+    "Severity": "LOW"
+  },
+  {
+    "Policy": "AWS Lambda encryption settings environmental variable is not set properly",
+    "Checkov ID": "CKV_AWS_173",
+    "Severity": "LOW"
+  },
+  {
+    "Policy": "AWS CloudFront web distribution using insecure TLS version",
+    "Checkov ID": "CKV_AWS_174",
+    "Severity": "LOW"
+  },
+  {
+    "Policy": "AWS WAF does not have associated rules",
+    "Checkov ID": "CKV_AWS_175",
+    "Severity": "LOW"
+  },
+  {
+    "Policy": "AWS WAF Web Access Control Lists logging is disabled",
+    "Checkov ID": "CKV_AWS_176",
+    "Severity": "LOW"
+  },
+  {
+    "Policy": "AWS Kinesis Video Stream not encrypted using Customer Managed Key",
+    "Checkov ID": "CKV_AWS_177",
+    "Severity": "LOW"
+  },
+  {
+    "Policy": "AWS fx ontap file system not encrypted using Customer Managed Key",
+    "Checkov ID": "CKV_AWS_178",
+    "Severity": "LOW"
+  },
+  {
+    "Policy": "AWS FSX Windows filesystem not encrypted using Customer Managed Key",
+    "Checkov ID": "CKV_AWS_179",
+    "Severity": "LOW"
+  },
+  {
+    "Policy": "AWS Access logging not enabled on S3 buckets",
+    "Checkov ID": "CKV_AWS_18",
+    "Severity": "INFO"
+  },
+  {
+    "Policy": "AWS Image Builder component not encrypted using Customer Managed Key",
+    "Checkov ID": "CKV_AWS_180",
+    "Severity": "LOW"
+  },
+  {
+    "Policy": "AWS S3 Object Copy not encrypted using Customer Managed Key",
+    "Checkov ID": "CKV_AWS_181",
+    "Severity": "LOW"
+  },
+  {
+    "Policy": "AWS Doc DB not encrypted using Customer Managed Key",
+    "Checkov ID": "CKV_AWS_182",
+    "Severity": "LOW"
+  },
+  {
+    "Policy": "AWS EBS Snapshot Copy not encrypted using Customer Managed Key",
+    "Checkov ID": "CKV_AWS_183",
+    "Severity": "LOW"
+  },
+  {
+    "Policy": "AWS Elastic File System (EFS) is not encrypted using Customer Managed Key",
+    "Checkov ID": "CKV_AWS_184",
+    "Severity": "LOW"
+  },
+  {
+    "Policy": "AWS Kinesis streams encryption is using default KMS keys instead of Customer’s Managed Master Keys",
+    "Checkov ID": "CKV_AWS_185",
+    "Severity": "LOW"
+  },
+  {
+    "Policy": "AWS S3 bucket Object not encrypted using Customer Managed Key",
+    "Checkov ID": "CKV_AWS_186",
+    "Severity": "LOW"
+  },
+  {
+    "Policy": "AWS Sagemaker domain not encrypted using Customer Managed Key",
+    "Checkov ID": "CKV_AWS_187",
+    "Severity": "LOW"
+  },
+  {
+    "Policy": "AWS EBS Volume not encrypted using Customer Managed Key",
+    "Checkov ID": "CKV_AWS_189",
+    "Severity": "LOW"
+  },
+  {
+    "Policy": "AWS S3 buckets do not have server side encryption",
+    "Checkov ID": "CKV_AWS_19",
+    "Severity": "LOW"
+  },
+  {
+    "Policy": "AWS lustre file system not configured with CMK key",
+    "Checkov ID": "CKV_AWS_190",
+    "Severity": "LOW"
+  },
+  {
+    "Policy": "AWS Elasticache replication group not configured with CMK key",
+    "Checkov ID": "CKV_AWS_191",
+    "Severity": "LOW"
+  },
+  {
+    "Policy": "WAF enables message lookup in Log4j2",
+    "Checkov ID": "CKV_AWS_192",
+    "Severity": "HIGH"
+  },
+  {
+    "Policy": "AWS AppSync’s logging is disabled",
+    "Checkov ID": "CKV_AWS_193",
+    "Severity": "LOW"
+  },
+  {
+    "Policy": "AWS AppSync has field-level logging disabled",
+    "Checkov ID": "CKV_AWS_194",
+    "Severity": "INFO"
+  },
+  {
+    "Policy": "AWS Glue component is not associated with a security configuration",
+    "Checkov ID": "CKV_AWS_195",
+    "Severity": "LOW"
+  },
+  {
+    "Policy": "AWS Glue component is not associated with a security configuration",
+    "Checkov ID": "CKV_AWS_195",
+    "Severity": "LOW"
+  },
+  {
+    "Policy": "AWS Elasticache security groups are not defined",
+    "Checkov ID": "CKV_AWS_196",
+    "Severity": "LOW"
+  },
+  {
+    "Policy": "AWS MQBroker audit logging is disabled",
+    "Checkov ID": "CKV_AWS_197",
+    "Severity": "LOW"
+  },
+  {
+    "Policy": "AWS MQBroker audit logging is disabled",
+    "Checkov ID": "CKV_AWS_197",
+    "Severity": "LOW"
+  },
+  {
+    "Policy": "AWS RDS security groups are not defined",
+    "Checkov ID": "CKV_AWS_198",
+    "Severity": "LOW"
+  },
+  {
+    "Policy": "AWS Image Builder Distribution Configuration is not encrypting AMI by Key Management Service (KMS) using a Customer Managed Key (CMK)",
+    "Checkov ID": "CKV_AWS_199",
+    "Severity": "LOW"
+  },
+  {
+    "Policy": "AWS Elastic Load Balancer v2 (ELBv2) listener that allow connection requests over HTTP",
+    "Checkov ID": "CKV_AWS_2",
+    "Severity": "MEDIUM"
+  },
+  {
+    "Policy": "AWS S3 bucket ACL grants READ permission to everyone",
+    "Checkov ID": "CKV_AWS_20",
+    "Severity": "HIGH"
+  },
+  {
+    "Policy": "AWS Image Recipe EBS Disk are not encrypted using a Customer Managed Key (CMK)",
+    "Checkov ID": "CKV_AWS_200",
+    "Severity": "LOW"
+  },
+  {
+    "Policy": "AWS MemoryDB is not encrypted at rest by AWS' Key Management Service KMS using CMKs",
+    "Checkov ID": "CKV_AWS_201",
+    "Severity": "LOW"
+  },
+  {
+    "Policy": "AWS MemoryDB data is not encrypted in transit",
+    "Checkov ID": "CKV_AWS_202",
+    "Severity": "LOW"
+  },
+  {
+    "Policy": "AWS FSX openzfs is not encrypted by AWS' Key Management Service (KMS) using a Customer Managed Key (CMK)",
+    "Checkov ID": "CKV_AWS_203",
+    "Severity": "LOW"
+  },
+  {
+    "Policy": "AWS AMIs are not encrypted by Key Management Service (KMS) using Customer Managed Keys (CMKs)",
+    "Checkov ID": "CKV_AWS_204",
+    "Severity": "LOW"
+  },
+  {
+    "Policy": "AWS AMI launch permissions are not limited",
+    "Checkov ID": "CKV_AWS_205",
+    "Severity": "LOW"
+  },
+  {
+    "Policy": "AWS API Gateway Domain does not use a modern security policy",
+    "Checkov ID": "CKV_AWS_206",
+    "Severity": "LOW"
+  },
+  {
+    "Policy": "AWS MQBroker’s minor version updates are disabled",
+    "Checkov ID": "CKV_AWS_207",
+    "Severity": "LOW"
+  },
+  {
+    "Policy": "AWS MQBroker version is not up to date",
+    "Checkov ID": "CKV_AWS_208",
+    "Severity": "LOW"
+  },
+  {
+    "Policy": "AWS MQ Broker is not encrypted by Customer Managed Key (CMK)",
+    "Checkov ID": "CKV_AWS_209",
+    "Severity": "LOW"
+  },
+  {
+    "Policy": "AWS S3 Object Versioning is disabled",
+    "Checkov ID": "CKV_AWS_21",
+    "Severity": "LOW"
+  },
+  {
+    "Policy": "AWS Batch Job is defined as a privileged container",
+    "Checkov ID": "CKV_AWS_210",
+    "Severity": "LOW"
+  },
+  {
+    "Policy": "AWS RDS does not use a modern CaCert",
+    "Checkov ID": "CKV_AWS_211",
+    "Severity": "LOW"
+  },
+  {
+    "Policy": "AWS EBS Volume is not encrypted by Key Management Service (KMS) using a Customer Managed Key (CMK)",
+    "Checkov ID": "CKV_AWS_212",
+    "Severity": "LOW"
+  },
+  {
+    "Policy": "AWS ELB Policy uses some unsecure protocols",
+    "Checkov ID": "CKV_AWS_213",
+    "Severity": "LOW"
+  },
+  {
+    "Policy": "AWS Appsync API Cache is not encrypted at rest",
+    "Checkov ID": "CKV_AWS_214",
+    "Severity": "LOW"
+  },
+  {
+    "Policy": "AWS Appsync API Cache is not encrypted in transit",
+    "Checkov ID": "CKV_AWS_215",
+    "Severity": "LOW"
+  },
+  {
+    "Policy": "AWS Cloudfront distribution is disabled",
+    "Checkov ID": "CKV_AWS_216",
+    "Severity": "LOW"
+  },
+  {
+    "Policy": "AWS API deployments do not enable Create before Destroy",
+    "Checkov ID": "CKV_AWS_217",
+    "Severity": "LOW"
+  },
+  {
+    "Policy": "AWS Cloudsearch does not use the latest (Transport Layer Security) TLS",
+    "Checkov ID": "CKV_AWS_218",
+    "Severity": "LOW"
+  },
+  {
+    "Policy": "AWS CodePipeline artifactStore is not encrypted by Key Management Service (KMS) using a Customer Managed Key (CMK)",
+    "Checkov ID": "CKV_AWS_219",
+    "Severity": "LOW"
+  },
+  {
+    "Policy": "AWS SageMaker notebook instance not configured with data encryption at rest using KMS key",
+    "Checkov ID": "CKV_AWS_22",
+    "Severity": "LOW"
+  },
+  {
+    "Policy": "AWS Cloudsearch does not use HTTPs",
+    "Checkov ID": "CKV_AWS_220",
+    "Severity": "LOW"
+  },
+  {
+    "Policy": "AWS Code Artifact Domain is not encrypted by KMS using a Customer Managed Key (CMK)",
+    "Checkov ID": "CKV_AWS_221",
+    "Severity": "LOW"
+  },
+  {
+    "Policy": "AWS DMS replication instance automatic version upgrade disabled",
+    "Checkov ID": "CKV_AWS_222",
+    "Severity": "LOW"
+  },
+  {
+    "Policy": "AWS ECS Cluster does not enable logging of ECS Exec",
+    "Checkov ID": "CKV_AWS_223",
+    "Severity": "LOW"
+  },
+  {
+    "Policy": "AWS cluster logging is not enabled or client to container communication not encrypted using a Customer Managed Key (CMK)",
+    "Checkov ID": "CKV_AWS_224",
+    "Severity": "LOW"
+  },
+  {
+    "Policy": "AWS API Gateway method settings do not enable caching",
+    "Checkov ID": "CKV_AWS_225",
+    "Severity": "LOW"
+  },
+  {
+    "Policy": "AWS DB instance does not get all minor upgrades automatically",
+    "Checkov ID": "CKV_AWS_226",
+    "Severity": "LOW"
+  },
+  {
+    "Policy": "AWS Key Management Service (KMS) key is disabled",
+    "Checkov ID": "CKV_AWS_227",
+    "Severity": "LOW"
+  },
+  {
+    "Policy": "AWS Elasticsearch domain does not use an updated TLS policy",
+    "Checkov ID": "CKV_AWS_228",
+    "Severity": "LOW"
+  },
+  {
+    "Policy": "AWS NACL allows ingress from 0.0.0.0/0 to port 21",
+    "Checkov ID": "CKV_AWS_229",
+    "Severity": "LOW"
+  },
+  {
+    "Policy": "Not every Security Group rule has a description",
+    "Checkov ID": "CKV_AWS_23",
+    "Severity": "LOW"
+  },
+  {
+    "Policy": "AWS NACL allows ingress from 0.0.0.0/0 to port 20",
+    "Checkov ID": "CKV_AWS_230",
+    "Severity": "LOW"
+  },
+  {
+    "Policy": "AWS NACL allows ingress from 0.0.0.0/0 to port 3389",
+    "Checkov ID": "CKV_AWS_231",
+    "Severity": "LOW"
+  },
+  {
+    "Policy": "AWS NACL allows ingress from 0.0.0.0/0 to port 22",
+    "Checkov ID": "CKV_AWS_232",
+    "Severity": "LOW"
+  },
+  {
+    "Policy": "AWS ACM certificate does not enable Create before Destroy",
+    "Checkov ID": "CKV_AWS_233",
+    "Severity": "LOW"
+  },
+  {
+    "Policy": "AWS ACM certificates does not have logging preference",
+    "Checkov ID": "CKV_AWS_234",
+    "Severity": "LOW"
+  },
+  {
+    "Policy": "AWS copied AMIs are not encrypted",
+    "Checkov ID": "CKV_AWS_235",
+    "Severity": "LOW"
+  },
+  {
+    "Policy": "AWS AMI copying does not use a Customer Managed Key (CMK)",
+    "Checkov ID": "CKV_AWS_236",
+    "Severity": "LOW"
+  },
+  {
+    "Policy": "Ensure AWS API gateway enables Create before Destroy",
+    "Checkov ID": "CKV_AWS_237",
+    "Severity": "LOW"
+  },
+  {
+    "Policy": "AWS GuardDuty detector is not enabled",
+    "Checkov ID": "CKV_AWS_238",
+    "Severity": "INFO"
+  },
+  {
+    "Policy": "AWS DAX cluster endpoint does not use TLS (Transport Layer Security)",
+    "Checkov ID": "CKV_AWS_239",
+    "Severity": "LOW"
+  },
+  {
+    "Policy": "AWS Security Group allows all traffic on SSH port (22)",
+    "Checkov ID": "CKV_AWS_24",
+    "Severity": "INFO"
+  },
+  {
+    "Policy": "AWS Kinesis Firehose’s delivery stream is not encrypted",
+    "Checkov ID": "CKV_AWS_240",
+    "Severity": "LOW"
+  },
+  {
+    "Policy": "AWS Kinesis Firehose Delivery Streams are not encrypted with CMK",
+    "Checkov ID": "CKV_AWS_241",
+    "Severity": "LOW"
+  },
+  {
+    "Policy": "AWS MWAA environment has scheduler logs disabled",
+    "Checkov ID": "CKV_AWS_242",
+    "Severity": "LOW"
+  },
+  {
+    "Policy": "AWS MWAA environment has worker logs disabled",
+    "Checkov ID": "CKV_AWS_243",
+    "Severity": "LOW"
+  },
+  {
+    "Policy": "AWS MWAA environment has webserver logs disabled",
+    "Checkov ID": "CKV_AWS_244",
+    "Severity": "LOW"
+  },
+  {
+    "Policy": "AWS replicated backups are not encrypted at rest by Key Management Service (KMS) using a Customer Managed Key (CMK)",
+    "Checkov ID": "CKV_AWS_245",
+    "Severity": "LOW"
+  },
+  {
+    "Policy": "AWS RDS Cluster activity streams are not encrypted by Key Management Service (KMS) using Customer Managed Keys (CMKs)",
+    "Checkov ID": "CKV_AWS_246",
+    "Severity": "LOW"
+  },
+  {
+    "Policy": "AWS all data stored in the Elasticsearch domain is not encrypted using a Customer Managed Key (CMK)",
+    "Checkov ID": "CKV_AWS_247",
+    "Severity": "LOW"
+  },
+  {
+    "Policy": "AWS Elasticsearch uses the default security group",
+    "Checkov ID": "CKV_AWS_248",
+    "Severity": "LOW"
+  },
+  {
+    "Policy": "AWS Execution Role ARN and Task Role ARN are different in ECS Task definitions",
+    "Checkov ID": "CKV_AWS_249",
+    "Severity": "LOW"
+  },
+  {
+    "Policy": "AWS Execution Role ARN and Task Role ARN are different in ECS Task definitions",
+    "Checkov ID": "CKV_AWS_249",
+    "Severity": "LOW"
+  },
+  {
+    "Policy": "AWS Security Group allows all traffic on RDP port (3389)",
+    "Checkov ID": "CKV_AWS_25",
+    "Severity": "INFO"
+  },
+  {
+    "Policy": "AWS RDS PostgreSQL exposed to local file read vulnerability",
+    "Checkov ID": "CKV_AWS_250",
+    "Severity": "MEDIUM"
+  },
+  {
+    "Policy": "AWS CloudTrail logging is disabled",
+    "Checkov ID": "CKV_AWS_251",
+    "Severity": "INFO"
+  },
+  {
+    "Policy": "AWS CloudTrail does not define an SNS Topic",
+    "Checkov ID": "CKV_AWS_252",
+    "Severity": "LOW"
+  },
+  {
+    "Policy": "AWS DLM cross-region events are not encrypted",
+    "Checkov ID": "CKV_AWS_253",
+    "Severity": "LOW"
+  },
+  {
+    "Policy": "AWS DLM cross-region events are not encrypted with a Customer Managed Key (CMK)",
+    "Checkov ID": "CKV_AWS_254",
+    "Severity": "LOW"
+  },
+  {
+    "Policy": "AWS DLM-cross region schedules are not encrypted",
+    "Checkov ID": "CKV_AWS_255",
+    "Severity": "LOW"
+  },
+  {
+    "Policy": "AWS DLM cross-region schedules are not encrypted using a Customer Managed Key (CMK)",
+    "Checkov ID": "CKV_AWS_256",
+    "Severity": "LOW"
+  },
+  {
+    "Policy": "AWS Codecommit branch changes has less than 2 approvals",
+    "Checkov ID": "CKV_AWS_257",
+    "Severity": "LOW"
+  },
+  {
+    "Policy": "AWS Lambda function URL AuthType set to NONE",
+    "Checkov ID": "CKV_AWS_258",
+    "Severity": "MEDIUM"
+  },
+  {
+    "Policy": "AWS CloudFront response header policy does not enforce Strict Transport Security",
+    "Checkov ID": "CKV_AWS_259",
+    "Severity": "LOW"
+  },
+  {
+    "Policy": "AWS SNS topic has SSE disabled",
+    "Checkov ID": "CKV_AWS_26",
+    "Severity": "MEDIUM"
+  },
+  {
+    "Policy": "AWS security groups allow ingress from 0.0.0.0/0 to port 80",
+    "Checkov ID": "CKV_AWS_260",
+    "Severity": "LOW"
+  },
+  {
+    "Policy": "AWS HTTP and HTTPS target groups do not define health check",
+    "Checkov ID": "CKV_AWS_261",
+    "Severity": "LOW"
+  },
+  {
+    "Policy": "AWS Kendra index Server side encryption does not use Customer Managed Keys (CMKs)",
+    "Checkov ID": "CKV_AWS_262",
+    "Severity": "LOW"
+  },
+  {
+    "Policy": "AWS App Flow flow does not use Customer Managed Keys (CMKs)",
+    "Checkov ID": "CKV_AWS_263",
+    "Severity": "LOW"
+  },
+  {
+    "Policy": "AWS App Flow connector profile does not use Customer Managed Keys (CMKs)",
+    "Checkov ID": "CKV_AWS_264",
+    "Severity": "LOW"
+  },
+  {
+    "Policy": "AWS Keyspace Table does not use Customer Managed Keys (CMKs)",
+    "Checkov ID": "CKV_AWS_265",
+    "Severity": "LOW"
+  },
+  {
+    "Policy": "AWS RDS DB snapshot does not use Customer Managed Keys (CMKs)",
+    "Checkov ID": "CKV_AWS_266",
+    "Severity": "LOW"
+  },
+  {
+    "Policy": "Comprehend Entity Recognizer’s model is not encrypted by KMS using a customer managed Key (CMK)",
+    "Checkov ID": "CKV_AWS_267",
+    "Severity": "HIGH"
+  },
+  {
+    "Policy": "Comprehend Entity Recognizer’s volume is not encrypted by KMS using a customer managed Key (CMK)",
+    "Checkov ID": "CKV_AWS_268",
+    "Severity": "HIGH"
+  },
+  {
+    "Policy": "Connect Instance Kinesis Video Stream Storage Config is not using CMK for encryption",
+    "Checkov ID": "CKV_AWS_269",
+    "Severity": "MEDIUM"
+  },
+  {
+    "Policy": "AWS SQS Queue not configured with server side encryption",
+    "Checkov ID": "CKV_AWS_27",
+    "Severity": "LOW"
+  },
+  {
+    "Policy": "The Connect Instance S3 Storage Configuration utilizes Customer Managed Key.",
+    "Checkov ID": "CKV_AWS_270",
+    "Severity": "HIGH"
+  },
+  {
+    "Policy": "DynamoDB table replica does not use CMK KMS encryption",
+    "Checkov ID": "CKV_AWS_271",
+    "Severity": "HIGH"
+  },
+  {
+    "Policy": "AWS Lambda function is not configured to validate code-signing",
+    "Checkov ID": "CKV_AWS_272",
+    "Severity": "HIGH"
+  },
+  {
+    "Policy": "Access is not controlled through Single Sign-On (SSO)",
+    "Checkov ID": "CKV_AWS_273",
+    "Severity": "LOW"
+  },
+  {
+    "Policy": "AWS AdministratorAccess policy is used by IAM roles, users, or groups",
+    "Checkov ID": "CKV_AWS_274",
+    "Severity": "HIGH"
+  },
+  {
+    "Policy": "IAM policy uses the AWS AdministratorAccess policy",
+    "Checkov ID": "CKV_AWS_275",
+    "Severity": "HIGH"
+  },
+  {
+    "Policy": "Data Trace is not enabled in the API Gateway Method Settings",
+    "Checkov ID": "CKV_AWS_276",
+    "Severity": "LOW"
+  },
+  {
+    "Policy": "AWS Security Group allows all traffic on all ports",
+    "Checkov ID": "CKV_AWS_277",
+    "Severity": "MEDIUM"
+  },
+  {
+    "Policy": "MemoryDB snapshot is not encrypted by KMS using a customer managed Key (CMK)",
+    "Checkov ID": "CKV_AWS_278",
+    "Severity": "HIGH"
+  },
+  {
+    "Policy": "Neptune snapshot is not securely encrypted",
+    "Checkov ID": "CKV_AWS_279",
+    "Severity": "HIGH"
+  },
+  {
+    "Policy": "DynamoDB PITR is disabled",
+    "Checkov ID": "CKV_AWS_28",
+    "Severity": "HIGH"
+  },
+  {
+    "Policy": "Neptune snapshot is encrypted by KMS using a customer managed Key (CMK)",
+    "Checkov ID": "CKV_AWS_280",
+    "Severity": "HIGH"
+  },
+  {
+    "Policy": "RedShift snapshot copy is not encrypted by KMS using a customer managed Key (CMK).",
+    "Checkov ID": "CKV_AWS_281",
+    "Severity": "HIGH"
+  },
+  {
+    "Policy": "Redshift Serverless namespace is not encrypted by KMS using a customer managed key (CMK)",
+    "Checkov ID": "CKV_AWS_282",
+    "Severity": "HIGH"
+  },
+  {
+    "Policy": "IAM Policy Document Allows All or Any AWS Principal Permissions to Resources",
+    "Checkov ID": "CKV_AWS_283",
+    "Severity": "HIGH"
+  },
+  {
+    "Policy": "State machine does not have X-ray tracing enabled",
+    "Checkov ID": "CKV_AWS_284",
+    "Severity": "LOW"
+  },
+  {
+    "Policy": "Execution history logging is not enabled on the State Machine",
+    "Checkov ID": "CKV_AWS_285",
+    "Severity": "MEDIUM"
+  },
+  {
+    "Policy": "AWS IAM Policy permission may cause privilege escalation",
+    "Checkov ID": "CKV_AWS_286",
+    "Severity": "MEDIUM"
+  },
+  {
+    "Policy": "IAM policies allow exposure of credentials",
+    "Checkov ID": "CKV_AWS_287",
+    "Severity": "HIGH"
+  },
+  {
+    "Policy": "IAM policies allow data exfiltration",
+    "Checkov ID": "CKV_AWS_288",
+    "Severity": "HIGH"
+  },
+  {
+    "Policy": "IAM policies allow permissions management or resource exposure without constraints",
+    "Checkov ID": "CKV_AWS_289",
+    "Severity": "HIGH"
+  },
+  {
+    "Policy": "AWS ElastiCache Redis cluster with encryption for data at rest disabled",
+    "Checkov ID": "CKV_AWS_29",
+    "Severity": "LOW"
+  },
+  {
+    "Policy": "IAM policies allow write access without constraints",
+    "Checkov ID": "CKV_AWS_290",
+    "Severity": "HIGH"
+  },
+  {
+    "Policy": "MSK nodes are not private",
+    "Checkov ID": "CKV_AWS_291",
+    "Severity": "HIGH"
+  },
+  {
+    "Policy": "DocDB Global Cluster is not encrypted at rest",
+    "Checkov ID": "CKV_AWS_292",
+    "Severity": "HIGH"
+  },
+  {
+    "Policy": "AWS database instances do not have deletion protection enabled",
+    "Checkov ID": "CKV_AWS_293",
+    "Severity": "MEDIUM"
+  },
+  {
+    "Policy": "CloudTrail Event Data Store does not use Customer Managed Keys (CMKs)",
+    "Checkov ID": "CKV_AWS_294",
+    "Severity": "INFO"
+  },
+  {
+    "Policy": "DataSync Location Object Storage exposes secrets",
+    "Checkov ID": "CKV_AWS_295",
+    "Severity": "HIGH"
+  },
+  {
+    "Policy": "DMS endpoint is not using a Customer Managed Key (CMK)",
+    "Checkov ID": "CKV_AWS_296",
+    "Severity": "HIGH"
+  },
+  {
+    "Policy": "EventBridge Scheduler Schedule is not using a Customer Managed Key (CMK)",
+    "Checkov ID": "CKV_AWS_297",
+    "Severity": "HIGH"
+  },
+  {
+    "Policy": "The DMS S3 does not use a Customer Managed Key (CMK)",
+    "Checkov ID": "CKV_AWS_298",
+    "Severity": "HIGH"
+  },
+  {
+    "Policy": "AWS EBS volumes are not encrypted",
+    "Checkov ID": "CKV_AWS_3",
+    "Severity": "HIGH"
+  },
+  {
+    "Policy": "AWS ElastiCache Redis cluster with in-transit encryption disabled (Replication group)",
+    "Checkov ID": "CKV_AWS_30",
+    "Severity": "LOW"
+  },
+  {
+    "Policy": "S3 lifecycle configuration does not set a period for aborting failed uploads",
+    "Checkov ID": "CKV_AWS_300",
+    "Severity": "MEDIUM"
+  },
+  {
+    "Policy": "AWS Lambda Function resource-based policy is overly permissive",
+    "Checkov ID": "CKV_AWS_301",
+    "Severity": "LOW"
+  },
+  {
+    "Policy": "AWS RDS snapshots are accessible to public",
+    "Checkov ID": "CKV_AWS_302",
+    "Severity": "MEDIUM"
+  },
+  {
+    "Policy": "AWS SSM documents are public",
+    "Checkov ID": "CKV_AWS_303",
+    "Severity": "MEDIUM"
+  },
+  {
+    "Policy": "Secrets Manager secrets are not rotated within 90 days",
+    "Checkov ID": "CKV_AWS_304",
+    "Severity": "HIGH"
+  },
+  {
+    "Policy": "AWS CloudFront distributions does not have a default root object configured",
+    "Checkov ID": "CKV_AWS_305",
+    "Severity": "MEDIUM"
+  },
+  {
+    "Policy": "AWS SageMaker notebook instance is not placed in VPC",
+    "Checkov ID": "CKV_AWS_306",
+    "Severity": "INFO"
+  },
+  {
+    "Policy": "AWS SageMaker notebook instance with root access enabled",
+    "Checkov ID": "CKV_AWS_307",
+    "Severity": "INFO"
+  },
+  {
+    "Policy": "API Gateway method setting is not set to encrypted caching",
+    "Checkov ID": "CKV_AWS_308",
+    "Severity": "HIGH"
+  },
+  {
+    "Policy": "Authorization type for API GatewayV2 routes is not specified",
+    "Checkov ID": "CKV_AWS_309",
+    "Severity": "MEDIUM"
+  },
+  {
+    "Policy": "AWS ElastiCache Redis cluster with Redis AUTH feature disabled",
+    "Checkov ID": "CKV_AWS_31",
+    "Severity": "LOW"
+  },
+  {
+    "Policy": "CloudFront distributions do not have origin failover configured",
+    "Checkov ID": "CKV_AWS_310",
+    "Severity": "MEDIUM"
+  },
+  {
+    "Policy": "CodeBuild S3 logs are not encrypted",
+    "Checkov ID": "CKV_AWS_311",
+    "Severity": "HIGH"
+  },
+  {
+    "Policy": "Elastic Beanstalk environments do not have enhanced health reporting enabled",
+    "Checkov ID": "CKV_AWS_312",
+    "Severity": "HIGH"
+  },
+  {
+    "Policy": "RDS cluster is not configured to copy tags to snapshots",
+    "Checkov ID": "CKV_AWS_313",
+    "Severity": "LOW"
+  },
+  {
+    "Policy": "AWS CodeBuild project not configured with logging configuration",
+    "Checkov ID": "CKV_AWS_314",
+    "Severity": "INFO"
+  },
+  {
+    "Policy": "EC2 Auto Scaling groups are not utilizing EC2 launch templates",
+    "Checkov ID": "CKV_AWS_315",
+    "Severity": "MEDIUM"
+  },
+  {
+    "Policy": "AWS CodeBuild project environment privileged mode is enabled",
+    "Checkov ID": "CKV_AWS_316",
+    "Severity": "MEDIUM"
+  },
+  {
+    "Policy": "Elasticsearch Domain Audit Logging is disabled",
+    "Checkov ID": "CKV_AWS_317",
+    "Severity": "MEDIUM"
+  },
+  {
+    "Policy": "Elasticsearch domains are not configured with a minimum of three dedicated master nodes",
+    "Checkov ID": "CKV_AWS_318",
+    "Severity": "MEDIUM"
+  },
+  {
+    "Policy": "CloudWatch alarm actions are not enabled",
+    "Checkov ID": "CKV_AWS_319",
+    "Severity": "MEDIUM"
+  },
+  {
+    "Policy": "AWS Private ECR repository policy is overly permissive",
+    "Checkov ID": "CKV_AWS_32",
+    "Severity": "MEDIUM"
+  },
+  {
+    "Policy": "Redshift clusters are not using the default database name.",
+    "Checkov ID": "CKV_AWS_320",
+    "Severity": "MEDIUM"
+  },
+  {
+    "Policy": "Redshift clusters are not using enhanced VPC routing",
+    "Checkov ID": "CKV_AWS_321",
+    "Severity": "MEDIUM"
+  },
+  {
+    "Policy": "AWS ElastiCache Redis cluster automatic version upgrade disabled",
+    "Checkov ID": "CKV_AWS_322",
+    "Severity": "INFO"
+  },
+  {
+    "Policy": "ElastiCache cluster is using the default subnet group",
+    "Checkov ID": "CKV_AWS_323",
+    "Severity": "LOW"
+  },
+  {
+    "Policy": "RDS Cluster log capture is disabled",
+    "Checkov ID": "CKV_AWS_324",
+    "Severity": "MEDIUM"
+  },
+  {
+    "Policy": "RDS Cluster audit logging for MySQL engine is disabled",
+    "Checkov ID": "CKV_AWS_325",
+    "Severity": "LOW"
+  },
+  {
+    "Policy": "RDS Aurora Clusters do not have backtracking enabled",
+    "Checkov ID": "CKV_AWS_326",
+    "Severity": "MEDIUM"
+  },
+  {
+    "Policy": "AWS RDS DB cluster is encrypted using default KMS key instead of CMK",
+    "Checkov ID": "CKV_AWS_327",
+    "Severity": "INFO"
+  },
+  {
+    "Policy": "ALB is not configured with the defensive or strictest desync mitigation mode",
+    "Checkov ID": "CKV_AWS_328",
+    "Severity": "HIGH"
+  },
+  {
+    "Policy": "EFS Access Points are not enforcing a root directory",
+    "Checkov ID": "CKV_AWS_329",
+    "Severity": "HIGH"
+  },
+  {
+    "Policy": "AWS KMS Key policy overly permissive",
+    "Checkov ID": "CKV_AWS_33",
+    "Severity": "MEDIUM"
+  },
+  {
+    "Policy": "User identity should be enforced by EFS access points",
+    "Checkov ID": "CKV_AWS_330",
+    "Severity": "MEDIUM"
+  },
+  {
+    "Policy": "AWS Transit Gateway auto accept vpc attachment is enabled",
+    "Checkov ID": "CKV_AWS_331",
+    "Severity": "LOW"
+  },
+  {
+    "Policy": "ECS Fargate services are not ensured to run on the latest Fargate platform version",
+    "Checkov ID": "CKV_AWS_332",
+    "Severity": "MEDIUM"
+  },
+  {
+    "Policy": "AWS ECS services have automatic public IP address assignment enabled",
+    "Checkov ID": "CKV_AWS_333",
+    "Severity": "LOW"
+  },
+  {
+    "Policy": "AWS ECS task definition elevated privileges enabled",
+    "Checkov ID": "CKV_AWS_334",
+    "Severity": "MEDIUM"
+  },
+  {
+    "Policy": "ECS task definitions have their own unique process namespace or share the host’s process namespace",
+    "Checkov ID": "CKV_AWS_335",
+    "Severity": "MEDIUM"
+  },
+  {
+    "Policy": "AWS ECS task definition is not configured with read-only access to container root filesystems",
+    "Checkov ID": "CKV_AWS_336",
+    "Severity": "INFO"
+  },
+  {
+    "Policy": "SSM parameters are not utilizing KMS CMK.",
+    "Checkov ID": "CKV_AWS_337",
+    "Severity": "HIGH"
+  },
+  {
+    "Policy": "AWS CloudWatch log groups retention set to less than 365 days",
+    "Checkov ID": "CKV_AWS_338",
+    "Severity": "INFO"
+  },
+  {
+    "Policy": "EKS clusters are not running on a supported Kubernetes version",
+    "Checkov ID": "CKV_AWS_339",
+    "Severity": "HIGH"
+  },
+  {
+    "Policy": "AWS CloudFront viewer protocol policy is not configured with HTTPS",
+    "Checkov ID": "CKV_AWS_34",
+    "Severity": "MEDIUM"
+  },
+  {
+    "Policy": "AWS Elastic Beanstalk environment managed platform updates are not enabled",
+    "Checkov ID": "CKV_AWS_340",
+    "Severity": "INFO"
+  },
+  {
+    "Policy": "AWS Auto Scaling group launch configuration configured with Instance Metadata Service hop count greater than 1",
+    "Checkov ID": "CKV_AWS_341",
+    "Severity": "MEDIUM"
+  },
+  {
+    "Policy": "WAF rule does not have any actions",
+    "Checkov ID": "CKV_AWS_342",
+    "Severity": "LOW"
+  },
+  {
+    "Policy": "Amazon Redshift clusters do not have automatic snapshots enabled",
+    "Checkov ID": "CKV_AWS_343",
+    "Severity": "HIGH"
+  },
+  {
+    "Policy": "Network firewalls do not have deletion protection enabled",
+    "Checkov ID": "CKV_AWS_344",
+    "Severity": "HIGH"
+  },
+  {
+    "Policy": "Network firewall encryption does not use a CMK",
+    "Checkov ID": "CKV_AWS_345",
+    "Severity": "HIGH"
+  },
+  {
+    "Policy": "Network Firewall Policy does not define an encryption configuration that uses a CMK",
+    "Checkov ID": "CKV_AWS_346",
+    "Severity": "HIGH"
+  },
+  {
+    "Policy": "Neptune is not encrypted with KMS using a customer managed Key (CMK)",
+    "Checkov ID": "CKV_AWS_347",
+    "Severity": "HIGH"
+  },
+  {
+    "Policy": "AWS Access key enabled on root account",
+    "Checkov ID": "CKV_AWS_348",
+    "Severity": "HIGH"
+  },
+  {
+    "Policy": "AWS EMR cluster is not enabled with local disk encryption",
+    "Checkov ID": "CKV_AWS_349",
+    "Severity": "LOW"
+  },
+  {
+    "Policy": "AWS CloudTrail logs are not encrypted using Customer Master Keys (CMKs)",
+    "Checkov ID": "CKV_AWS_35",
+    "Severity": "INFO"
+  },
+  {
+    "Policy": "Security configuration of the EMR Cluster does not ensure the encryption of EBS disks",
+    "Checkov ID": "CKV_AWS_350",
+    "Severity": "HIGH"
+  },
+  {
+    "Policy": "AWS EMR cluster is not enabled with data encryption in transit",
+    "Checkov ID": "CKV_AWS_351",
+    "Severity": "LOW"
+  },
+  {
+    "Policy": "NACL ingress allows all ports",
+    "Checkov ID": "CKV_AWS_352",
+    "Severity": "HIGH"
+  },
+  {
+    "Policy": "RDS instances have performance insights disabled",
+    "Checkov ID": "CKV_AWS_353",
+    "Severity": "LOW"
+  },
+  {
+    "Policy": "RDS Performance Insights are not encrypted using KMS CMKs",
+    "Checkov ID": "CKV_AWS_354",
+    "Severity": "HIGH"
+  },
+  {
+    "Policy": "IAM policy document allows all resources with restricted actions",
+    "Checkov ID": "CKV_AWS_355",
+    "Severity": "HIGH"
+  },
+  {
+    "Policy": "Data source IAM policy document allows all resources with restricted actions",
+    "Checkov ID": "CKV_AWS_356",
+    "Severity": "HIGH"
+  },
+  {
+    "Policy": "Transfer server does not force secure protocols.",
+    "Checkov ID": "CKV_AWS_357",
+    "Severity": "HIGH"
+  },
+  {
+    "Policy": "AWS IAM role has a GitHub Actions OIDC trust policy that does not specify a known organization",
+    "Checkov ID": "CKV_AWS_358",
+    "Severity": "HIGH"
+  },
+  {
+    "Policy": "AWS Neptune Cluster not configured with IAM authentication",
+    "Checkov ID": "CKV_AWS_359",
+    "Severity": "LOW"
+  },
+  {
+    "Policy": "AWS CloudTrail log validation is not enabled in all regions",
+    "Checkov ID": "CKV_AWS_36",
+    "Severity": "LOW"
+  },
+  {
+    "Policy": "AWS DocumentDB clusters have backup retention period less than 7 days",
+    "Checkov ID": "CKV_AWS_360",
+    "Severity": "LOW"
+  },
+  {
+    "Policy": "AWS Neptune DB clusters have backup retention period less than 7 days",
+    "Checkov ID": "CKV_AWS_361",
+    "Severity": "INFO"
+  },
+  {
+    "Policy": "Clusters of Neptune DB do not replicate tags to snapshots",
+    "Checkov ID": "CKV_AWS_362",
+    "Severity": "LOW"
+  },
+  {
+    "Policy": "Runtime of Lambda is deprecated",
+    "Checkov ID": "CKV_AWS_363",
+    "Severity": "MEDIUM"
+  },
+  {
+    "Policy": "Permissions delegated to AWS services for AWS Lambda functions are not limited by SourceArn or SourceAccount",
+    "Checkov ID": "CKV_AWS_364",
+    "Severity": "HIGH"
+  },
+  {
+    "Policy": "TLS not enforced in SES configuration set",
+    "Checkov ID": "CKV_AWS_365",
+    "Severity": "MEDIUM"
+  },
+  {
+    "Policy": "AWS Cognito identity pool allows unauthenticated guest access",
+    "Checkov ID": "CKV_AWS_366",
+    "Severity": "MEDIUM"
+  },
+  {
+    "Policy": "AWS Sagemaker data quality job not encrypting model artifacts with KMS",
+    "Checkov ID": "CKV_AWS_367",
+    "Severity": "LOW"
+  },
+  {
+    "Policy": "AWS Sagemaker Data Quality Job not using KMS to encrypt data on attached storage volume",
+    "Checkov ID": "CKV_AWS_368",
+    "Severity": "LOW"
+  },
+  {
+    "Policy": "AWS Sagemaker Data Quality Job not encrypting communications between instances used for monitoring jobs",
+    "Checkov ID": "CKV_AWS_369",
+    "Severity": "LOW"
+  },
+  {
+    "Policy": "AWS EKS control plane logging disabled",
+    "Checkov ID": "CKV_AWS_37",
+    "Severity": "INFO"
+  },
+  {
+    "Policy": "AWS SageMaker model does not use network isolation",
+    "Checkov ID": "CKV_AWS_370",
+    "Severity": "MEDIUM"
+  },
+  {
+    "Policy": "AWS SageMaker Notebook Instance allows for IMDSv1",
+    "Checkov ID": "CKV_AWS_371",
+    "Severity": "MEDIUM"
+  },
+  {
+    "Policy": "AWS SageMaker Flow Definition does not use KMS for output configurations",
+    "Checkov ID": "CKV_AWS_372",
+    "Severity": "LOW"
+  },
+  {
+    "Policy": "AWS EKS cluster security group overly permissive to all traffic",
+    "Checkov ID": "CKV_AWS_38",
+    "Severity": "LOW"
+  },
+  {
+    "Policy": "AWS EKS cluster endpoint access publicly enabled",
+    "Checkov ID": "CKV_AWS_39",
+    "Severity": "LOW"
+  },
+  {
+    "Policy": "AWS IAM policy attached to users",
+    "Checkov ID": "CKV_AWS_40",
+    "Severity": "LOW"
+  },
+  {
+    "Policy": "AWS access keys and secrets are hard coded in infrastructure",
+    "Checkov ID": "CKV_AWS_41",
+    "Severity": "HIGH"
+  },
+  {
+    "Policy": "AWS Elastic File System (EFS) with encryption for data at rest is disabled",
+    "Checkov ID": "CKV_AWS_42",
+    "Severity": "LOW"
+  },
+  {
+    "Policy": "AWS Kinesis streams are not encrypted using Server Side Encryption",
+    "Checkov ID": "CKV_AWS_43",
+    "Severity": "LOW"
+  },
+  {
+    "Policy": "Neptune storage is not securely encrypted",
+    "Checkov ID": "CKV_AWS_44",
+    "Severity": "MEDIUM"
+  },
+  {
+    "Policy": "Lambda function’s environment variables expose secrets",
+    "Checkov ID": "CKV_AWS_45",
+    "Severity": "MEDIUM"
+  },
+  {
+    "Policy": "EC2 user data exposes secrets",
+    "Checkov ID": "CKV_AWS_46",
+    "Severity": "HIGH"
+  },
+  {
+    "Policy": "AWS DAX cluster not configured with encryption at rest",
+    "Checkov ID": "CKV_AWS_47",
+    "Severity": "INFO"
+  },
+  {
+    "Policy": "Amazon MQ Broker logging is not enabled",
+    "Checkov ID": "CKV_AWS_48",
+    "Severity": "MEDIUM"
+  },
+  {
+    "Policy": "AWS IAM policy documents do not allow * (asterisk) as a statement’s action",
+    "Checkov ID": "CKV_AWS_49",
+    "Severity": "HIGH"
+  },
+  {
+    "Policy": "AWS Elasticsearch domain Encryption for data at rest is disabled",
+    "Checkov ID": "CKV_AWS_5",
+    "Severity": "LOW"
+  },
+  {
+    "Policy": "AWS Lambda functions with tracing not enabled",
+    "Checkov ID": "CKV_AWS_50",
+    "Severity": "LOW"
+  },
+  {
+    "Policy": "ECR image tags are not immutable",
+    "Checkov ID": "CKV_AWS_51",
+    "Severity": "LOW"
+  },
+  {
+    "Policy": "AWS S3 Buckets has block public access setting disabled",
+    "Checkov ID": "CKV_AWS_53",
+    "Severity": "MEDIUM"
+  },
+  {
+    "Policy": "AWS S3 Bucket BlockPublicPolicy is not set to True",
+    "Checkov ID": "CKV_AWS_54",
+    "Severity": "MEDIUM"
+  },
+  {
+    "Policy": "AWS S3 bucket IgnorePublicAcls is not set to True",
+    "Checkov ID": "CKV_AWS_55",
+    "Severity": "MEDIUM"
+  },
+  {
+    "Policy": "AWS S3 bucket RestrictPublicBucket is not set to True",
+    "Checkov ID": "CKV_AWS_56",
+    "Severity": "MEDIUM"
+  },
+  {
+    "Policy": "AWS S3 Bucket has an ACL defined which allows public WRITE access",
+    "Checkov ID": "CKV_AWS_57",
+    "Severity": "HIGH"
+  },
+  {
+    "Policy": "AWS EKS cluster does not have secrets encryption enabled",
+    "Checkov ID": "CKV_AWS_58",
+    "Severity": "MEDIUM"
+  },
+  {
+    "Policy": "AWS API gateway methods are publicly accessible",
+    "Checkov ID": "CKV_AWS_59",
+    "Severity": "LOW"
+  },
+  {
+    "Policy": "AWS Elasticsearch does not have node-to-node encryption enabled",
+    "Checkov ID": "CKV_AWS_6",
+    "Severity": "MEDIUM"
+  },
+  {
+    "Policy": "AWS IAM role allows all services or principals to be assumed",
+    "Checkov ID": "CKV_AWS_60",
+    "Severity": "HIGH"
+  },
+  {
+    "Policy": "AWS IAM policies that allow full \"-\" administrative privileges are created",
+    "Checkov ID": "CKV_AWS_61",
+    "Severity": "HIGH"
+  },
+  {
+    "Policy": "AWS IAM policies that allow full \\\"-\\\" administrative privileges are created",
+    "Checkov ID": "CKV_AWS_62",
+    "Severity": "CRITICAL"
+  },
+  {
+    "Policy": "AWS IAM policy documents allow * (asterisk) as a statement’s action",
+    "Checkov ID": "CKV_AWS_63",
+    "Severity": "HIGH"
+  },
+  {
+    "Policy": "AWS Redshift instances are not encrypted",
+    "Checkov ID": "CKV_AWS_64",
+    "Severity": "LOW"
+  },
+  {
+    "Policy": "AWS ECS cluster with container insights feature disabled",
+    "Checkov ID": "CKV_AWS_65",
+    "Severity": "LOW"
+  },
+  {
+    "Policy": "AWS CloudWatch Log groups not configured with definite retention days",
+    "Checkov ID": "CKV_AWS_66",
+    "Severity": "LOW"
+  },
+  {
+    "Policy": "AWS CloudTrail is not enabled with multi trail and not capturing all management events",
+    "Checkov ID": "CKV_AWS_67",
+    "Severity": "INFO"
+  },
+  {
+    "Policy": "AWS CloudFront web distribution with AWS Web Application Firewall (AWS WAF) service disabled",
+    "Checkov ID": "CKV_AWS_68",
+    "Severity": "INFO"
+  },
+  {
+    "Policy": "AWS MQ is publicly accessible",
+    "Checkov ID": "CKV_AWS_69",
+    "Severity": "LOW"
+  },
+  {
+    "Policy": "AWS Customer Master Key (CMK) rotation is not enabled",
+    "Checkov ID": "CKV_AWS_7",
+    "Severity": "INFO"
+  },
+  {
+    "Policy": "AWS S3 bucket policy overly permissive to any principal",
+    "Checkov ID": "CKV_AWS_70",
+    "Severity": "MEDIUM"
+  },
+  {
+    "Policy": "AWS Redshift database does not have audit logging enabled",
+    "Checkov ID": "CKV_AWS_71",
+    "Severity": "INFO"
+  },
+  {
+    "Policy": "AWS SQS queue access policy is overly permissive",
+    "Checkov ID": "CKV_AWS_72",
+    "Severity": "INFO"
+  },
+  {
+    "Policy": "API Gateway does not have X-Ray tracing enabled",
+    "Checkov ID": "CKV_AWS_73",
+    "Severity": "LOW"
+  },
+  {
+    "Policy": "DocumentDB is not encrypted at rest",
+    "Checkov ID": "CKV_AWS_74",
+    "Severity": "MEDIUM"
+  },
+  {
+    "Policy": "Global Accelerator does not have Flow logs enabled",
+    "Checkov ID": "CKV_AWS_75",
+    "Severity": "LOW"
+  },
+  {
+    "Policy": "API Gateway does not have access logging enabled",
+    "Checkov ID": "CKV_AWS_76",
+    "Severity": "LOW"
+  },
+  {
+    "Policy": "Athena Database is not encrypted at rest",
+    "Checkov ID": "CKV_AWS_77",
+    "Severity": "MEDIUM"
+  },
+  {
+    "Policy": "CodeBuild project encryption is disabled",
+    "Checkov ID": "CKV_AWS_78",
+    "Severity": "MEDIUM"
+  },
+  {
+    "Policy": "AWS EC2 instance not configured with Instance Metadata Service v2 (IMDSv2)",
+    "Checkov ID": "CKV_AWS_79",
+    "Severity": "HIGH"
+  },
+  {
+    "Policy": "AWS EC2 Auto Scaling Launch Configuration is not using encrypted EBS volumes",
+    "Checkov ID": "CKV_AWS_8",
+    "Severity": "INFO"
+  },
+  {
+    "Policy": "Amazon MSK cluster logging is not enabled",
+    "Checkov ID": "CKV_AWS_80",
+    "Severity": "MEDIUM"
+  },
+  {
+    "Policy": "AWS MSK cluster encryption in transit is not enabled",
+    "Checkov ID": "CKV_AWS_81",
+    "Severity": "MEDIUM"
+  },
+  {
+    "Policy": "Athena workgroup does not prevent disabling encryption",
+    "Checkov ID": "CKV_AWS_82",
+    "Severity": "MEDIUM"
+  },
+  {
+    "Policy": "AWS Elasticsearch domain is not configured with HTTPS",
+    "Checkov ID": "CKV_AWS_83",
+    "Severity": "MEDIUM"
+  },
+  {
+    "Policy": "AWS Elasticsearch domain logging is not enabled",
+    "Checkov ID": "CKV_AWS_84",
+    "Severity": "MEDIUM"
+  },
+  {
+    "Policy": "AWS DocumentDB logging is not enabled",
+    "Checkov ID": "CKV_AWS_85",
+    "Severity": "MEDIUM"
+  },
+  {
+    "Policy": "AWS CloudFront distribution with access logging disabled",
+    "Checkov ID": "CKV_AWS_86",
+    "Severity": "INFO"
+  },
+  {
+    "Policy": "AWS Redshift cluster is publicly accessible",
+    "Checkov ID": "CKV_AWS_87",
+    "Severity": "LOW"
+  },
+  {
+    "Policy": "AWS Redshift cluster instance with public access setting enabled",
+    "Checkov ID": "CKV_AWS_87",
+    "Severity": "MEDIUM"
+  },
+  {
+    "Policy": "AWS EC2 instances with public IP and associated with security groups have Internet access",
+    "Checkov ID": "CKV_AWS_88",
+    "Severity": "HIGH"
+  },
+  {
+    "Policy": "AWS DMS replication instance is publicly accessible",
+    "Checkov ID": "CKV_AWS_89",
+    "Severity": "LOW"
+  },
+  {
+    "Policy": "AWS IAM password policy does not expire in 90 days",
+    "Checkov ID": "CKV_AWS_9",
+    "Severity": "INFO"
+  },
+  {
+    "Policy": "DocDB TLS is disabled",
+    "Checkov ID": "CKV_AWS_90",
+    "Severity": "MEDIUM"
+  },
+  {
+    "Policy": "AWS Elastic Load Balancer v2 (ELBv2) with access log disabled",
+    "Checkov ID": "CKV_AWS_91",
+    "Severity": "INFO"
+  },
+  {
+    "Policy": "AWS Elastic Load Balancer (Classic) with access log disabled",
+    "Checkov ID": "CKV_AWS_92",
+    "Severity": "INFO"
+  },
+  {
+    "Policy": "S3 bucket policy allows lockout all but root user",
+    "Checkov ID": "CKV_AWS_93",
+    "Severity": "MEDIUM"
+  },
+  {
+    "Policy": "Glue Data Catalog encryption is not enabled",
+    "Checkov ID": "CKV_AWS_94",
+    "Severity": "HIGH"
+  },
+  {
+    "Policy": "AWS API Gateway V2 has Access Logging is disabled",
+    "Checkov ID": "CKV_AWS_95",
+    "Severity": "LOW"
+  },
+  {
+    "Policy": "Not all data stored in Aurora is securely encrypted at rest",
+    "Checkov ID": "CKV_AWS_96",
+    "Severity": "HIGH"
+  },
+  {
+    "Policy": "EFS volumes in ECS task definitions do not have encryption in transit enabled",
+    "Checkov ID": "CKV_AWS_97",
+    "Severity": "HIGH"
+  },
+  {
+    "Policy": "AWS SageMaker endpoint data encryption at rest not configured",
+    "Checkov ID": "CKV_AWS_98",
+    "Severity": "HIGH"
+  },
+  {
+    "Policy": "AWS Glue security configuration encryption is not enabled",
+    "Checkov ID": "CKV_AWS_99",
+    "Severity": "HIGH"
+  },
+  {
+    "Policy": "AWS resources that support tags do not have Tags",
+    "Checkov ID": "CKV_AWS_CUSTOM_1",
+    "Severity": "LOW"
+  },
+  {
+    "Policy": "Not all data stored in the EBS snapshot is securely encrypted",
+    "Checkov ID": "CKV_AWS_CUSTOM_3",
+    "Severity": "MEDIUM"
+  },
+  {
+    "Policy": "AWS Network ACL is not in use",
+    "Checkov ID": "CKV2_AWS_1",
+    "Severity": "INFO"
+  },
+  {
+    "Policy": "AWS CloudTrail trail logs is not integrated with CloudWatch Log",
+    "Checkov ID": "CKV2_AWS_10",
+    "Severity": "INFO"
+  },
+  {
+    "Policy": "AWS VPC Flow Logs not enabled",
+    "Checkov ID": "CKV2_AWS_11",
+    "Severity": "INFO"
+  },
+  {
+    "Policy": "AWS Default Security Group does not restrict all traffic",
+    "Checkov ID": "CKV2_AWS_12",
+    "Severity": "LOW"
+  },
+  {
+    "Policy": "AWS IAM group not in use",
+    "Checkov ID": "CKV2_AWS_14",
+    "Severity": "INFO"
+  },
+  {
+    "Policy": "Auto scaling groups associated with a load balancer do not use elastic load balancing health checks",
+    "Checkov ID": "CKV2_AWS_15",
+    "Severity": "LOW"
+  },
+  {
+    "Policy": "AWS DynamoDB table Auto Scaling not enabled",
+    "Checkov ID": "CKV2_AWS_16",
+    "Severity": "INFO"
+  },
+  {
+    "Policy": "Amazon EFS does not have an AWS Backup backup plan",
+    "Checkov ID": "CKV2_AWS_18",
+    "Severity": "LOW"
+  },
+  {
+    "Policy": "Not all EIP addresses allocated to a VPC are attached to EC2 instances",
+    "Checkov ID": "CKV2_AWS_19",
+    "Severity": "LOW"
+  },
+  {
+    "Policy": "Not only encrypted EBS volumes are attached to EC2 instances",
+    "Checkov ID": "CKV2_AWS_2",
+    "Severity": "LOW"
+  },
+  {
+    "Policy": "ALB does not redirect HTTP requests into HTTPS ones",
+    "Checkov ID": "CKV2_AWS_20",
+    "Severity": "LOW"
+  },
+  {
+    "Policy": "Not all IAM users are members of at least one IAM group",
+    "Checkov ID": "CKV2_AWS_21",
+    "Severity": "LOW"
+  },
+  {
+    "Policy": "IAM User has access to the console",
+    "Checkov ID": "CKV2_AWS_22",
+    "Severity": "MEDIUM"
+  },
+  {
+    "Policy": "Route53 A Record does not have Attached Resource",
+    "Checkov ID": "CKV2_AWS_23",
+    "Severity": "MEDIUM"
+  },
+  {
+    "Policy": "AWS RDS Postgres Cluster does not have query logging enabled",
+    "Checkov ID": "CKV2_AWS_27",
+    "Severity": "INFO"
+  },
+  {
+    "Policy": "AWS Application Load Balancer (ALB) not configured with AWS Web Application Firewall v2 (AWS WAFv2)",
+    "Checkov ID": "CKV2_AWS_28",
+    "Severity": "LOW"
+  },
+  {
+    "Policy": "Public API gateway not configured with AWS Web Application Firewall v2 (AWS WAFv2)",
+    "Checkov ID": "CKV2_AWS_29",
+    "Severity": "MEDIUM"
+  },
+  {
+    "Policy": "GuardDuty is not enabled to specific org/region",
+    "Checkov ID": "CKV2_AWS_3",
+    "Severity": "LOW"
+  },
+  {
+    "Policy": "AWS Postgres RDS have Query Logging disabled",
+    "Checkov ID": "CKV2_AWS_30",
+    "Severity": "LOW"
+  },
+  {
+    "Policy": "AWS Postgres RDS have Query Logging disabled",
+    "Checkov ID": "CKV2_AWS_30",
+    "Severity": "LOW"
+  },
+  {
+    "Policy": "AWS WAF2 does not have a Logging Configuration",
+    "Checkov ID": "CKV2_AWS_31",
+    "Severity": "LOW"
+  },
+  {
+    "Policy": "AWS CloudFront distribution does not have a strict security headers policy attached",
+    "Checkov ID": "CKV2_AWS_32",
+    "Severity": "LOW"
+  },
+  {
+    "Policy": "AWS AppSync is not protected by WAF",
+    "Checkov ID": "CKV2_AWS_33",
+    "Severity": "LOW"
+  },
+  {
+    "Policy": "AWS SSM Parameter is not encrypted",
+    "Checkov ID": "CKV2_AWS_34",
+    "Severity": "LOW"
+  },
+  {
+    "Policy": "AWS NAT Gateways are not utilized for the default route",
+    "Checkov ID": "CKV2_AWS_35",
+    "Severity": "LOW"
+  },
+  {
+    "Policy": "AWS Terraform sends SSM secrets to untrusted domains over HTTP",
+    "Checkov ID": "CKV2_AWS_36",
+    "Severity": "LOW"
+  },
+  {
+    "Policy": "AWS Codecommit is not associated with an approval rule",
+    "Checkov ID": "CKV2_AWS_37",
+    "Severity": "LOW"
+  },
+  {
+    "Policy": "Domain Name System Security Extensions (DNSSEC) signing is not enabled for Amazon Route 53 public hosted zones",
+    "Checkov ID": "CKV2_AWS_38",
+    "Severity": "HIGH"
+  },
+  {
+    "Policy": "Domain Name System (DNS) query logging is not enabled for Amazon Route 53 hosted zones",
+    "Checkov ID": "CKV2_AWS_39",
+    "Severity": "LOW"
+  },
+  {
+    "Policy": "API Gateway stage does not have logging level defined appropriately",
+    "Checkov ID": "CKV2_AWS_4",
+    "Severity": "LOW"
+  },
+  {
+    "Policy": "AWS IAM policy allows full administrative privileges",
+    "Checkov ID": "CKV2_AWS_40",
+    "Severity": "MEDIUM"
+  },
+  {
+    "Policy": "AWS EC2 Instance IAM Role not enabled",
+    "Checkov ID": "CKV2_AWS_41",
+    "Severity": "INFO"
+  },
+  {
+    "Policy": "AWS CloudFront web distribution with default SSL certificate",
+    "Checkov ID": "CKV2_AWS_42",
+    "Severity": "LOW"
+  },
+  {
+    "Policy": "AWS S3 buckets are accessible to any authenticated user",
+    "Checkov ID": "CKV2_AWS_43",
+    "Severity": "MEDIUM"
+  },
+  {
+    "Policy": "AWS route table with VPC peering overly permissive to all traffic",
+    "Checkov ID": "CKV2_AWS_44",
+    "Severity": "LOW"
+  },
+  {
+    "Policy": "AWS Config Recording is disabled",
+    "Checkov ID": "CKV2_AWS_45",
+    "Severity": "INFO"
+  },
+  {
+    "Policy": "AWS Cloudfront Distribution with S3 have Origin Access set to disabled",
+    "Checkov ID": "CKV2_AWS_46",
+    "Severity": "LOW"
+  },
+  {
+    "Policy": "AWS CloudFront attached WAFv2 WebACL is not configured with AMR for Log4j Vulnerability",
+    "Checkov ID": "CKV2_AWS_47",
+    "Severity": "MEDIUM"
+  },
+  {
+    "Policy": "AWS Config must record all possible resources",
+    "Checkov ID": "CKV2_AWS_48",
+    "Severity": "INFO"
+  },
+  {
+    "Policy": "AWS Database Migration Service endpoint do not have SSL configured",
+    "Checkov ID": "CKV2_AWS_49",
+    "Severity": "LOW"
+  },
+  {
+    "Policy": "Security Groups are not attached to EC2 instances or ENIs",
+    "Checkov ID": "CKV2_AWS_5",
+    "Severity": "LOW"
+  },
+  {
+    "Policy": "AWS ElastiCache Redis cluster with Multi-AZ Automatic Failover feature set to disabled",
+    "Checkov ID": "CKV2_AWS_50",
+    "Severity": "INFO"
+  },
+  {
+    "Policy": "AWS API Gateway endpoints without client certificate authentication",
+    "Checkov ID": "CKV2_AWS_51",
+    "Severity": "LOW"
+  },
+  {
+    "Policy": "AWS OpenSearch Fine-grained access control is disabled",
+    "Checkov ID": "CKV2_AWS_52",
+    "Severity": "LOW"
+  },
+  {
+    "Policy": "AWS API gateway request parameter is not validated",
+    "Checkov ID": "CKV2_AWS_53",
+    "Severity": "LOW"
+  },
+  {
+    "Policy": "AWS CloudFront distribution is using insecure SSL protocols for HTTPS communication",
+    "Checkov ID": "CKV2_AWS_54",
+    "Severity": "MEDIUM"
+  },
+  {
+    "Policy": "AWS EMR cluster is not configured with security configuration",
+    "Checkov ID": "CKV2_AWS_55",
+    "Severity": "INFO"
+  },
+  {
+    "Policy": "The AWS Managed IAMFullAccess IAM policy should not be used",
+    "Checkov ID": "CKV2_AWS_56",
+    "Severity": "HIGH"
+  },
+  {
+    "Policy": "AWS Secret Manager Automatic Key Rotation is not enabled",
+    "Checkov ID": "CKV2_AWS_57",
+    "Severity": "LOW"
+  },
+  {
+    "Policy": "AWS Neptune cluster deletion protection is disabled",
+    "Checkov ID": "CKV2_AWS_58",
+    "Severity": "INFO"
+  },
+  {
+    "Policy": "AWS Elasticsearch domain has Dedicated master set to disabled",
+    "Checkov ID": "CKV2_AWS_59",
+    "Severity": "LOW"
+  },
+  {
+    "Policy": "S3 Bucket does not have public access blocks",
+    "Checkov ID": "CKV2_AWS_6",
+    "Severity": "LOW"
+  },
+  {
+    "Policy": "AWS RDS instance with copy tags to snapshots disabled",
+    "Checkov ID": "CKV2_AWS_60",
+    "Severity": "INFO"
+  },
+  {
+    "Policy": "An S3 bucket must have a lifecycle configuration",
+    "Checkov ID": "CKV2_AWS_61",
+    "Severity": "MEDIUM"
+  },
+  {
+    "Policy": "S3 buckets do not have event notifications enabled",
+    "Checkov ID": "CKV2_AWS_62",
+    "Severity": "LOW"
+  },
+  {
+    "Policy": "AWS Network Firewall is not configured with logging configuration",
+    "Checkov ID": "CKV2_AWS_63",
+    "Severity": "INFO"
+  },
+  {
+    "Policy": "A Policy is not Defined for KMS Key",
+    "Checkov ID": "CKV2_AWS_64",
+    "Severity": "MEDIUM"
+  },
+  {
+    "Policy": "AWS S3 bucket access control lists (ACLs) in use",
+    "Checkov ID": "CKV2_AWS_65",
+    "Severity": "LOW"
+  },
+  {
+    "Policy": "MWAA environment is publicly accessible",
+    "Checkov ID": "CKV2_AWS_66",
+    "Severity": "HIGH"
+  },
+  {
+    "Policy": "AWS SageMaker notebook instance IAM policy is overly permissive",
+    "Checkov ID": "CKV2_AWS_68",
+    "Severity": "MEDIUM"
+  },
+  {
+    "Policy": "Amazon EMR clusters' security groups are open to the world",
+    "Checkov ID": "CKV2_AWS_7",
+    "Severity": "LOW"
+  },
+  {
+    "Policy": "RDS clusters do not have an AWS Backup backup plan",
+    "Checkov ID": "CKV2_AWS_8",
+    "Severity": "LOW"
+  },
+  {
+    "Policy": "EBS does not have an AWS Backup backup plan",
+    "Checkov ID": "CKV2_AWS_9",
+    "Severity": "LOW"
+  },
+  {
+    "Policy": "AWS provisioned resources are manually modified",
+    "Checkov ID": "N",
+    "Severity": "HIGH"
+  },
+  {
+    "Policy": "Bucket ACL grants WRITE permission to AWS users",
+    "Checkov ID": "Unknown ID",
+    "Severity": "CRITICAL"
+  }
+]

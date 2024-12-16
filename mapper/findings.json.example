@@ -1,0 +1,199 @@
+{
+    "check_type": "terraform",
+    "results": {
+        "passed_checks": [],
+        "failed_checks": [
+            {
+                "check_id": "CKV_AWS_338",
+                "bc_check_id": "BC_AWS_LOGGING_46",
+                "check_name": "Ensure CloudWatch log groups retains logs for at least 1 year",
+                "check_result": {
+                    "result": "FAILED",
+                    "evaluated_keys": []
+                },
+                "code_block": [
+                    [
+                        107,
+                        "resource \"aws_cloudwatch_log_group\" \"eventbus_logs\" {\n"
+                    ],
+                    [
+                        108,
+                        "  name              = \"/aws/events/hub-alarms\"\n"
+                    ],
+                    [
+                        109,
+                        "  retention_in_days = 30\n"
+                    ],
+                    [
+                        110,
+                        "  kms_key_id        = aws_kms_key.eventbus_key.arn\n"
+                    ],
+                    [
+                        111,
+                        "}\n"
+                    ]
+                ],
+                "file_path": "/lz-modules-test/audit-alarms-hub-account/main.tf",
+                "file_abs_path": "/Documents/IAC/aws-landing-zone-test/lz-modules-test/audit-alarms-hub-account/main.tf",
+                "repo_file_path": "/aws-landing-zone-test/lz-modules-test/audit-alarms-hub-account/main.tf",
+                "file_line_range": [
+                    107,
+                    111
+                ],
+                "resource": "aws_cloudwatch_log_group.eventbus_logs",
+                "evaluations": null,
+                "check_class": "checkov.terraform.checks.resource.aws.CloudWatchLogGroupRetentionYear",
+                "fixed_definition": null,
+                "entity_tags": null,
+                "caller_file_path": null,
+                "caller_file_line_range": null,
+                "resource_address": null,
+                "severity": null,
+                "bc_category": null,
+                "benchmarks": null,
+                "description": null,
+                "short_description": null,
+                "vulnerability_details": null,
+                "connected_node": null,
+                "guideline": "https://docs.prismacloud.io/en/enterprise-edition/policy-reference/aws-policies/aws-logging-policies/bc-aws-338",
+                "details": [],
+                "check_len": null,
+                "definition_context_file_path": "/Documents/Customers/IAC/aws-landing-zone-test/lz-modules-test/audit-alarms-hub-account/main.tf"
+            },
+            {
+                "check_id": "CKV_AWS_272",
+                "bc_check_id": "BC_AWS_General_201",
+                "check_name": "Ensure AWS Lambda function is configured to validate code-signing",
+                "check_result": {
+                    "result": "FAILED",
+                    "evaluated_keys": [
+                        "code_signing_config_arn"
+                    ]
+                },
+                "code_block": [
+                    [
+                        206,
+                        "resource \"aws_lambda_function\" \"ActivityLambda\" {\n"
+                    ],
+                    [
+                        207,
+                        "  #checkov:skip=CKV_AWS_116:The Lambda function is triggered by an EventBridge pattern-based rule.\n"
+                    ],
+                    [
+                        208,
+                        "  #checkov:skip=CKV_AWS_117:The Lambda function is part of a serverless implementation.\n"
+                    ],
+                    [
+                        209,
+                        "  #checkov:skip=CKV_AWS_173:No AWS KMS key provided to encrypt environment variables. Using AWS Lambda owned key.\n"
+                    ],
+                    [
+                        210,
+                        "  #checkov:skip=CKV_AWS_50:The Lambda function does not require X-Ray tracing and relies on CloudWatch Logs.\n"
+                    ],
+                    [
+                        211,
+                        "\n"
+                    ],
+                    [
+                        212,
+                        "  filename                       = \"${path.module}/lambda/outputs/ActivityLambda.zip\"\n"
+                    ],
+                    [
+                        213,
+                        "  function_name                 = \"activity-monitor\"\n"
+                    ],
+                    [
+                        214,
+                        "  role                         = aws_iam_role.LambdaActivityRole.arn\n"
+                    ],
+                    [
+                        215,
+                        "  handler                      = \"ActivityLambda.lambda_handler\"\n"
+                    ],
+                    [
+                        216,
+                        "  timeout                      = \"50\"\n"
+                    ],
+                    [
+                        217,
+                        "  source_code_hash             = data.archive_file.ActivityLambda.output_base64sha256\n"
+                    ],
+                    [
+                        218,
+                        "  runtime                      = \"python3.8\"\n"
+                    ],
+                    [
+                        219,
+                        "  #reserved_concurrent_executions = 1\n"
+                    ],
+                    [
+                        220,
+                        "\n"
+                    ],
+                    [
+                        221,
+                        "  environment {\n"
+                    ],
+                    [
+                        222,
+                        "    variables = {\n"
+                    ],
+                    [
+                        223,
+                        "      SNS_TOPIC_ARN = aws_sns_topic.activity-sns-topic.arn\n"
+                    ],
+                    [
+                        224,
+                        "    }\n"
+                    ],
+                    [
+                        225,
+                        "  }\n"
+                    ],
+                    [
+                        226,
+                        "}\n"
+                    ]
+                ],
+                "file_path": "/lz-modules-test/audit-alarms-hub-account/main.tf",
+                "file_abs_path": "/Documents/Customers/IAC/aws-landing-zone-test/lz-modules-test/audit-alarms-hub-account/main.tf",
+                "repo_file_path": "/aws-landing-zone-test/lz-modules-test/audit-alarms-hub-account/main.tf",
+                "file_line_range": [
+                    206,
+                    226
+                ],
+                "resource": "aws_lambda_function.ActivityLambda",
+                "evaluations": null,
+                "check_class": "checkov.terraform.checks.resource.aws.LambdaCodeSigningConfigured",
+                "fixed_definition": null,
+                "entity_tags": null,
+                "caller_file_path": null,
+                "caller_file_line_range": null,
+                "resource_address": null,
+                "severity": null,
+                "bc_category": null,
+                "benchmarks": null,
+                "description": null,
+                "short_description": null,
+                "vulnerability_details": null,
+                "connected_node": null,
+                "guideline": "https://docs.prismacloud.io/en/enterprise-edition/policy-reference/aws-policies/aws-general-policies/bc-aws-272",
+                "details": [],
+                "check_len": null,
+                "definition_context_file_path": "/Documents/Customers/IAC/aws-landing-zone-test/lz-modules-test/audit-alarms-hub-account/main.tf"
+            }
+        ],
+        "skipped_checks": [],
+        "parsing_errors": []
+    },
+    "summary": {
+        "passed": 0,
+        "failed": 2,
+        "skipped": 0,
+        "parsing_errors": 0,
+        "resource_count": 2,
+        "checkov_version": "3.2.280"
+    },
+    "url": "Add an api key '--bc-api-key <api-key>' to see more detailed insights via https://bridgecrew.cloud"
+}

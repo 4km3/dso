@@ -1,0 +1,32 @@
+env:
+  contexts:
+    - name: "Default Context"
+      urls: ["http://localhost:8081"]
+  parameters:
+    failOnError: true
+    progressToStdout: true
+
+jobs:
+  - name: "passiveScan-config"
+    type: "passiveScan-config"
+    parameters:
+      scanOnlyInScope: true
+      
+  - name: "spider"
+    type: "spider"
+    parameters:
+      context: "Default Context"
+      maxDuration: 0
+      
+  - name: "active-scan"
+    type: "activeScan"
+    parameters:
+      context: "Default Context"
+      
+  - name: "report"
+    type: "report"
+    parameters:
+      template: "sarif-json"
+      reportDir: "/zap/wrk/reports/"    # This directory is mapped to GITHUB_WORKSPACE
+      reportFile: "zap-scan-report"
+      reportTitle: "ZAP Scan Report"

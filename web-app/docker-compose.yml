@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: embedded-server
+    ports:
+      - "8081:8080"
+    restart: unless-stopped
