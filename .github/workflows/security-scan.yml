@@ -36,7 +36,7 @@ jobs:
         run: cd infra; terraform init
 
       - name: Run Terrascan
-        uses: tenable/terrascan-action@v1.4.1
+        uses: tenable/terrascan-action@v1.5.0
         with:
           iac_dir: "infra"
           iac_type: "terraform"
